@@ -1,0 +1,56 @@
+.card {
+    background-color: var(--color-gray-400);
+    width: 330px;
+    padding: 12px 12px 20px 12px;
+    border-radius: 12px;
+
+    &:has(.service) {
+        background-color: var(--color-gray-500);
+    }
+
+    img {
+        padding-bottom: 20px;
+    }
+
+    p {
+        padding-bottom: 8px;
+        color: var(--color-gray-100);
+        font: var(--title-sm);
+    }
+
+    span {
+        color: var(--color-gray-200);
+        font: var(--text-sm-maven-pro);
+    }
+
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 1040px;
+    gap: 24px;
+}
+
+.link {
+    background-color: var(--color-gray-400);
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    span {
+        font: var(--text-md-maven-pro);
+        color: var(--color-gray-200);
+    }
+}

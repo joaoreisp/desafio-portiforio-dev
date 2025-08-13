@@ -1,0 +1,168 @@
+#intro {
+    background-image: url(../assets/Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    margin: 0 auto;
+
+    header {
+        display: grid;
+        place-items: center;
+        width: 680px;
+        margin: 0 auto;
+    }
+
+    header>img {
+        padding-block: 120px 56px;
+    }
+
+    header p {
+        padding-bottom: 8px;
+        color: var(--color-gray-200);
+        font: var(--text-subtitle);
+    }
+
+    header p span {
+        font: var(--text-subtitle);
+        color: var(--color-red);
+    }
+
+    header h1 {
+        padding-bottom: 20px;
+        font: var(--title-lg);
+    }
+
+    header span {
+        padding-bottom: 80px;
+        font: var(--text-sm-maven-pro);
+        text-align: center;
+        color: var(--color-gray-300);
+    }
+
+    .tecnologies {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 16px;
+        margin: 0 auto;
+        width: 754px;
+        padding-bottom: 94px;
+    }
+
+    .tag {
+        width: 114px;
+        background-color: var(--color-gray-400);
+        padding: 8px;
+        border-radius: 999px;
+        text-align: center;
+        color: var(--color-gray-200);
+        font: var(--text-md-maven-pro);
+    }
+
+    .vetor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+#projets {
+    padding-bottom: 120px;
+    background-color: var(--color-gray-400);
+
+    header {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        margin-bottom: 56px;
+
+        p {
+            font: var(--text-subtitle);
+            color: var(--color-red);
+            padding-bottom: 8px;
+            text-align: center;
+        }
+
+        h2 {
+            color: var(--color-gray-100);
+            font: var(--title-md);
+            text-align: center;
+        }
+    }
+
+    .actions {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        width: 1040px;
+        gap: 24px;
+    }
+
+}
+
+#services {
+    padding: 88px 120px;
+    background-color: var(--color-gray-600);
+
+    header {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        margin-bottom: 56px;
+
+        p {
+            font: var(--text-subtitle);
+            color: var(--color-red);
+            padding-bottom: 8px;
+            text-align: center;
+        }
+
+        h2 {
+            color: var(--color-gray-100);
+            font: var(--title-md);
+            text-align: center;
+        }
+    }
+}
+
+#contact {
+    background-image: url(../assets/Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 787px;
+    padding: 128px 120px 200px 120px;
+
+    .links {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: auto;
+    }
+
+    header {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        margin-bottom: 56px;
+
+        p {
+            font: var(--text-subtitle);
+            color: var(--color-purple);
+            padding-bottom: 8px;
+            text-align: center;
+        }
+
+        h2 {
+            color: var(--color-gray-100);
+            font: var(--title-md);
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        span {
+            color: var(--color-gray-200);
+            font: var(--text-md-maven-pro);
+            text-align: center;
+        }
+    }
+}
